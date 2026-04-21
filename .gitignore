@@ -1,0 +1,45 @@
+# =======================================================================
+# PYTHON & VENV
+# =======================================================================
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
+*.log
+
+# =======================================================================
+# NEOVIM / VIM (kickstart.nvim)
+# =======================================================================
+*.swp
+*.swo
+*.undo
+.netrwhist
+Session.vim
+lsp.log
+
+# =======================================================================
+# LINUX SYSTEM FILES
+# =======================================================================
+.directory
+.thumbnails/
+lost+found/
+# Keep these if you use an external drive/USB for your lab
+.Spotlight-V10
+.Trashes
+
+# =======================================================================
+# PROJECT SECRETS
+# =======================================================================
+.env
+auth.json
+secrets/token.json
+secrets/credentials.json
+secrets.py
+# Only ignore constants.py if it contains passwords/tokens!
+# constants.py
